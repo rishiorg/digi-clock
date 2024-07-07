@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Methods Demonstration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>String Methods Demonstration</h1>
+        <form id="stringForm">
+            <label for="inputString">Enter a string:</label>
+            <input type="text" id="inputString" required>
+
+            <label for="methodSelect">Choose a string method:</label>
+            <select id="methodSelect">
+                <option value="length">Length</option>
+                <option value="toUpperCase">toUpperCase</option>
+                <option value="toLowerCase">toLowerCase</option>
+                <option value="charAt">charAt (Position 0)</option>
+                <option value="substring">substring (0, 5)</option>
+            </select>
+
+            <button type="submit">Apply Method</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

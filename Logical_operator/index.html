@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logical Operators Demo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Logical Operators Demo</h1>
+    <div class="input-section">
+        <label for="input1">Input 1:</label>
+        <input type="text" id="input1">
+        <label for="input2">Input 2:</label>
+        <input type="text" id="input2">
+        <select id="operator">
+            <option value="and">AND (&&)</option>
+            <option value="or">OR (||)</option>
+            <option value="not">NOT (!)</option>
+        </select>
+        <button onclick="calculate()">Calculate</button>
+    </div>
+    <div id="result" class="result-section">
+        Result: <span id="output"></span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
