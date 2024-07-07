@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Array Methods Demo</h1>
+        <input type="text" id="arrayInput" placeholder="Enter array elements separated by commas (e.g., 1, 2, 3)">
+        <button onclick="performArrayMethod()">Perform Array Method</button>
+
+        <div class="methods">
+            <label for="methods">Choose an array method:</label>
+            <select id="methods">
+                <option value="map">map</option>
+                <option value="filter">filter</option>
+                <option value="reduce">reduce</option>
+                <option value="forEach">forEach</option>
+                <option value="find">find</option>
+                <option value="sort">sort</option>
+                <option value="push">push</option>
+                <option value="pop">pop</option>
+                <option value="shift">shift</option>
+                <option value="unshift">unshift</option>
+            </select>
+        </div>
+
+        <div id="additionalInput" class="hidden">
+            <input type="text" id="additionalValue" placeholder="Enter a value for the method">
+        </div>
+
+        <div id="result">
+            <h2>Result:</h2>
+            <p id="output"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
